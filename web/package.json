@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "sqlite3": "^5.0.2"
+  },
+  "scripts": {
+    "start:login": "nodemon login.js",
+    "start:xss": "nodemon xss.js",
+    "start:csrf": "nodemon csrf.js",
+    "start:dos": "nodemon dos.js",
+    "start:sql": "nodemon sql.js"
+  }
+}
